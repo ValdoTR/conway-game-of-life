@@ -4,19 +4,7 @@ An attempt to play John Conway's Game of Life inside of WorkAdventure (maybe a d
 
 ![map](./map.png)
 
-## Structure
-
-* *public*: Static files like PDFs or audio files
-* *src*: Scripts files
-* *tilesets*: All tilesets
-* *map.tmj*: Map file
-* *map.png*: The map thumbnail displayed on the in-game map information
-
-If you want to use more than one map file, just add the new map file on root or in a folder.
-
-we recommend using 500x500 images for the map thumbnails.
-
-If you are going to create custom websites to embed in the map, please reference the HTML files in the `input` option in *vite.config.js*.
+[Proof of Concept DEMO](https://play.workadventu.re/@/valdo/life/poc)
 
 ## Requirements
 
